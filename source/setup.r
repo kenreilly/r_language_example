@@ -1,4 +1,5 @@
-install.packages('config', repos='http://cran.us.r-project.org')
-install.packages('rjson', repos='http://cran.us.r-project.org')
-install.packages('httr', repos='http://cran.us.r-project.org')
-install.packages('maps', repos='http://cran.us.r-project.org')
+repo <- 'http://cran.us.r-project.org'
+install.packages('config', repos=repo)
+install.packages('rjson', repos=repo)
+install.packages('httr', repos=repo)
+install.packages('maps', repos=repo)
