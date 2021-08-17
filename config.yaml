@@ -1,0 +1,9 @@
+default: 
+  datasource:
+      url: https://api.openchargemap.io/v3/poi/?countryid=2,44&maxresults=1000
+      key: 
+
+production:
+    datasource:
+      url: https://api.openchargemap.io/v3/poi/
+      key: 
